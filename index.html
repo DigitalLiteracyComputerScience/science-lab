@@ -2,6 +2,7 @@
 <html lang="hy">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Բնագիտական Շտեմարան</title>
     <style>
         body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; margin: 0; text-align: center; }
@@ -13,6 +14,27 @@
         .chemistry { background: #27ae60; }
         .geography { background: #e67e22; }
         footer { margin-top: 50px; padding: 20px; color: #7f8c8d; }
+
+        .qr-container {
+        margin: 40px auto;
+        padding: 20px;
+        background: white;
+        max-width: 200px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    .qr-container p {
+        font-size: 0.9rem;
+        color: #7f8c8d;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+    }
+    .qr-image {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
     </style>
 </head>
 <body>
@@ -26,6 +48,12 @@
         <a href="chemistry.html" class="card chemistry">ՔԻՄԻԱ</a>
         <a href="geography.html" class="card geography">ԱՇԽԱՐՀԱԳՐՈՒԹՅՈՒՆ</a>
     </div>
+
+    <div class="qr-container">
+    <p>Բացեք նախագիծը Ձեր հեռախոսով</p>
+    <img src="qrcode.png" alt="QR Code" class="qr-image">
+</div>
+
     <footer>&copy; 2026 | Ուսումնական նախագիծ ԹԳՀԳ առարկայից (Ստեղծված է կրթական նպատակների համար)</footer>
 </body>
 </html>
