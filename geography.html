@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Աշխարհագրություն - Գործնական Շտեմարան</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #fffaf5; }
+        
+        /* Navbar - Նարնջագույն գամմա */
+        .navbar { 
+            background: #e67e22; 
+            color: white; 
+            padding: 15px 50px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+        }
+        .navbar a { 
+            color: white; 
+            text-decoration: none; 
+            font-weight: bold; 
+            border: 1px solid white; 
+            padding: 5px 15px; 
+            border-radius: 5px; 
+            transition: 0.3s; 
+        }
+        .navbar a:hover { background: white; color: #e67e22; }
+        
+        .content { padding: 40px 10%; }
+        header { text-align: center; margin-bottom: 40px; }
+        header h1 { color: #a04000; font-size: 2.5rem; }
+
+        /* Քարտերի դիզայնը՝ ֆիզիկայի էջի նման */
+        .task-card { 
+            background: white; 
+            border-radius: 12px; 
+            padding: 30px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+            border-top: 10px solid #e67e22; 
+            margin-bottom: 30px; 
+        }
+        .task-card h3 { color: #e67e22; margin-top: 0; }
+        
+        .description { line-height: 1.8; color: #444; }
+        
+        /* Excel բաժինը */
+        .excel-section { 
+            background: #fef5e7; 
+            padding: 20px; 
+            border-radius: 8px; 
+            margin-top: 20px; 
+            border: 1px dashed #e67e22; 
+        }
+        
+        .btn-excel { 
+            display: inline-block; 
+            background: #d35400; 
+            color: white; 
+            padding: 15px 30px; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-weight: bold; 
+            margin-top: 20px; 
+            transition: 0.3s; 
+            border: none;
+            cursor: pointer;
+        }
+        .btn-excel:hover { 
+            background: #a04000; 
+            transform: scale(1.05); 
+        }
+        
+        .footer { text-align: center; padding: 20px; color: #7f8c8d; font-size: 0.9rem; }
+
+        summary { cursor: pointer; list-style: none; outline: none; }
+        .topic-title { 
+            display: inline-block; 
+            margin: 0; 
+            color: #d35400; 
+            border-bottom: 2px solid transparent; 
+            padding-bottom: 5px; 
+        }
+        .task-card[open] .topic-title { border-bottom: 2px solid #d35400; }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <h2>ԱՇԽԱՐՀԱԳՐՈՒԹՅՈՒՆ</h2>
+        <a href="index.html">🏠 Գլխավոր էջ</a>
+    </div>
+
+    <div class="content">
+        <header>
+            <h1>Աշխարհագրական երևույթների թվային վերլուծություն</h1>
+            <p>Առաջադրանքները կազմված են ըստ Աշխարհագրության 7-րդ դասարան դասագրքի թեմաների</p>
+        </header>
+
+
+        <div class="task-card">
+        <details>
+        <summary style="cursor: pointer; list-style: none;">
+            <h3 style="display: inline-block; margin: 0; color: #2980b9; border-bottom: 2px #2980b9; padding-bottom: 5px;">
+                Թեմա 2.6. Համաշխարհային օվկիանոսի ջրի ջերմությունը և աղիությունը
+            </h3>
+        </summary>
+
+        <div class="description" style="margin-top: 20px;">
+                        
+            <p><strong>Գործնական առաջադրանք:</strong> Ուսումնասիրել օվկիանոսի ջրի ջերմաստիճանի փոփոխությունը՝ կախված խորությունից։</p>
+            
+            <div class="excel-section" style="background: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
+                <p>📊 <strong>Առաջադրանքի գրաֆիկը.</strong></p>
+                
+                
+
+                <div style="overflow: hidden; border-radius: 8px; border: 1px solid #eee;">
+                    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrWjdMul1477L_2Dy070AJyuiDTXWNUd9nr9syOXcXHmEqdysvPBCCDlEAM0vxkWpznMYRSbGalNsm/pubchart?oid=1875463532&amp;format=interactive"></iframe>
+                </div>
+                <div style="margin: 15px 0;">
+                    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrWjdMul1477L_2Dy070AJyuiDTXWNUd9nr9syOXcXHmEqdysvPBCCDlEAM0vxkWpznMYRSbGalNsm/pubchart?oid=1875463532&format=interactive" target="_blank" style="color: #2980b9; font-weight: bold; text-decoration: none;">
+                         🔗 Բացել ինտերակտիվ դիագրամը առանձին պատուհանում
+                    </a>
+                </div>
+            </div>
+
+            <h4>Հարցեր վերլուծության համար.</h4>
+            <ol>
+                <li>Ո՞ր շերտում է ջերմաստիճանի անկումն ամենակտրուկը։</li>
+                <li>Ինչո՞ւ 1000 մետրից հետո ջերմաստիճանը գրեթե չի փոփոխվում։</li>
+                <li>Գրաֆիկի հիման վրա որոշեք, թե որքան կլինի ջերմաստիճանը 600 մետր խորության վրա։</li>
+            </ol>
+                        
+        </div>
+        </details>
+        </div>
+
+
+                <div class="task-card">
+        <details>
+        <summary style="cursor: pointer; list-style: none;">
+            <h3 style="display: inline-block; margin: 0; color: #2980b9; border-bottom: 2px #2980b9; padding-bottom: 5px;">
+                Թեմա 3.6. Կլիմայական դիագրամներ (Կլիմագայագրամներ)
+            </h3>
+        </summary>
+
+        <div class="description" style="margin-top: 20px;">
+                        
+            <p><strong>Գործնական առաջադրանք:</strong> Համեմատել տեղումների քանակը և ջերմաստիճանը տարվա ընթացքում (օրինակ՝ Երևանի համար)։</p>
+            
+            <div class="excel-section" style="background: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
+                <p>📊 <strong>Առաջադրանքի գրաֆիկը.</strong></p>
+                
+                
+
+                <div style="overflow: hidden; border-radius: 8px; border: 1px solid #eee;">
+                    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrWjdMul1477L_2Dy070AJyuiDTXWNUd9nr9syOXcXHmEqdysvPBCCDlEAM0vxkWpznMYRSbGalNsm/pubchart?oid=196620584&amp;format=interactive"></iframe>
+                </div>
+                <div style="margin: 15px 0;">
+                    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrWjdMul1477L_2Dy070AJyuiDTXWNUd9nr9syOXcXHmEqdysvPBCCDlEAM0vxkWpznMYRSbGalNsm/pubchart?oid=196620584&format=interactive" target="_blank" style="color: #2980b9; font-weight: bold; text-decoration: none;">
+                         🔗 Բացել ինտերակտիվ դիագրամը առանձին պատուհանում
+                    </a>
+                </div>
+            </div>
+
+            <h4>Հարցեր վերլուծության համար.</h4>
+            <ol>
+                <li>Կա՞ արդյոք կապ ամենաբարձր ջերմաստիճանի և տեղումների քանակի միջև։</li>
+                <li>Ո՞ր ամիսներին է տեղումների քանակը գերազանցում միջին ամսական շեմը։</li>
+                <li>Ինչպե՞ս կփոխվի դիագրամը, եթե տվյալները վերցնենք արևադարձային անտառների գոտուց։</li>
+            </ol>
+                        
+        </div>
+        </details>
+        </div>
+
+
+
+                <div class="task-card">
+        <details>
+        <summary style="cursor: pointer; list-style: none;">
+            <h3 style="display: inline-block; margin: 0; color: #2980b9; border-bottom: 2px #2980b9; padding-bottom: 5px;">
+                Թեմա 5.1. Աշխարհի բնակչության թիվը և շարժը
+            </h3>
+        </summary>
+
+        <div class="description" style="margin-top: 20px;">
+                        
+            <p><strong>Գործնական առաջադրանք:</strong> Վերլուծել աշխարհի բնակչության աճի տեմպերը վերջին տասնամյակներում։</p>
+            
+            <div class="excel-section" style="background: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
+                <p>📊 <strong>Առաջադրանքի գրաֆիկը.</strong></p>
+                
+                
+
+                <div style="overflow: hidden; border-radius: 8px; border: 1px solid #eee;">
+                    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrWjdMul1477L_2Dy070AJyuiDTXWNUd9nr9syOXcXHmEqdysvPBCCDlEAM0vxkWpznMYRSbGalNsm/pubchart?oid=1381936135&amp;format=interactive"></iframe>
+                </div>
+                <div style="margin: 15px 0;">
+                    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrWjdMul1477L_2Dy070AJyuiDTXWNUd9nr9syOXcXHmEqdysvPBCCDlEAM0vxkWpznMYRSbGalNsm/pubchart?oid=1381936135&format=interactive" target="_blank" style="color: #2980b9; font-weight: bold; text-decoration: none;">
+                         🔗 Բացել ինտերակտիվ դիագրամը առանձին պատուհանում
+                    </a>
+                </div>
+            </div>
+
+            <h4>Հարցեր վերլուծության համար.</h4>
+            <ol>
+                <li>Քանի՞ տարի է պահանջվել բնակչության թիվը 2 մլրդ-ով ավելացնելու համար 20-րդ դարի կեսերին և 21-րդ դարի սկզբին։</li>
+                <li>Դիագրամի հիման վրա կատարեք կանխատեսում 2050 թվականի համար։</li>
+                <li>Ինչո՞վ է բացատրվում բնակչության թվի նման կտրուկ աճը (ժողովրդագրական պայթյուն)։</li>
+            </ol>
+                        
+        </div>
+        </details>
+        </div>
+
+
+
+
+                <div class="task-card">
+        <details>
+        <summary style="cursor: pointer; list-style: none;">
+            <h3 style="display: inline-block; margin: 0; color: #2980b9; border-bottom: 2px #2980b9; padding-bottom: 5px;">
+                Թեմա 7.5. Վառելիքաէներգետիկ արդյունաբերություն
+            </h3>
+        </summary>
+
+        <div class="description" style="margin-top: 20px;">
+                        
+            <p><strong>Գործնական առաջադրանք:</strong> Համեմատել էներգիայի ստացման աղբյուրների մասնաբաժինները համաշխարհային էներգետիկ հաշվեկշռում։։</p>
+            
+            <div class="excel-section" style="background: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
+                <p>📊 <strong>Առաջադրանքի գրաֆիկը.</strong></p>
+                
+                
+
+                <div style="overflow: hidden; border-radius: 8px; border: 1px solid #eee;">
+                    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrWjdMul1477L_2Dy070AJyuiDTXWNUd9nr9syOXcXHmEqdysvPBCCDlEAM0vxkWpznMYRSbGalNsm/pubchart?oid=1675051504&amp;format=interactive"></iframe>
+                </div>
+                <div style="margin: 15px 0;">
+                    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrWjdMul1477L_2Dy070AJyuiDTXWNUd9nr9syOXcXHmEqdysvPBCCDlEAM0vxkWpznMYRSbGalNsm/pubchart?oid=1675051504&format=interactive" target="_blank" style="color: #2980b9; font-weight: bold; text-decoration: none;">
+                         🔗 Բացել ինտերակտիվ դիագրամը առանձին պատուհանում
+                    </a>
+                </div>
+            </div>
+
+            <h4>Հարցեր վերլուծության համար.</h4>
+            <ol>
+                <li>Ո՞ր տեսակի վառելիքն է դեռևս առաջատարը համաշխարհային շուկայում։</li>
+                <li>Ինչո՞ւ է կարևոր մեծացնել «Վերականգնվող էներգիա» հատվածի բաժինը։</li>
+                <li>Եթե նավթի պաշարները սպառվեն, դիագրամի ո՞ր հատվածները պետք է ընդլայնվեն՝ էներգետիկ ճգնաժամից խուսափելու համար։</li>
+            </ol>
+                        
+        </div>
+        </details>
+        </div>
+
+
+
+
+
+        <div class="task-card">
+        <details>
+        <summary style="cursor: pointer; list-style: none;">
+            <h3 style="display: inline-block; margin: 0; color: #2980b9; border-bottom: 2px #2980b9; padding-bottom: 5px;">
+                Թեմա
+            </h3>
+        </summary>
+
+        <div class="description" style="margin-top: 20px;">
+                        
+            <p><strong>Գործնական առաջադրանք:</strong> Այստեղ կարող է նոր առաջադրանք լինել։</p>
+            
+            <div class="excel-section" style="background: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
+                <p>📊 <strong>Առաջադրանքի գրաֆիկը.</strong></p>
+                
+                
+
+                <div style="overflow: hidden; border-radius: 8px; border: 1px solid #eee;">
+                    <iframe ></iframe>
+                </div>
+                <div style="margin: 15px 0;">
+                    <a href="" target="_blank" style="color: #2980b9; font-weight: bold; text-decoration: none;">
+                         🔗 Բացել ինտերակտիվ դիագրամը առանձին պատուհանում
+                    </a>
+                </div>
+            </div>
+
+            <h4>Հարցեր վերլուծության համար.</h4>
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+                        
+        </div>
+        </details>
+        </div>
+
+
+
+    <div class="task-card">
+            <a href="https://docs.google.com/spreadsheets/d/1O34GEQYvIvfmRfxTQu9arUIPf57Jr-j1vFG4j7Igm5I/edit?usp=sharing" target="_blank" class="btn-excel">
+                🟢 Անցնել Excel հաշվարկներին
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2026 | Թվերը խոսում են
+    </div>
+
+</body>
+</html>
